@@ -1,0 +1,2 @@
+model_checkpoint_path: "forecast-normalised"
+all_model_checkpoint_paths: "forecast-normalised"
