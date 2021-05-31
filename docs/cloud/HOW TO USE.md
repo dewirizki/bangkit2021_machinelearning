@@ -7,7 +7,9 @@ Send a request. The first article gives explanation in three ways: Python, gclou
 
 Send the input value containing 
 
-For the record, the window size for the prediction is 180 floats, meaning one must push 180 float values (normalised by dividing it with 35000) in order to get a prediction of one day. One may wish to use the [sliding window technique](https://en.wikipedia.org/wiki/Sliding_window_protocol) in order to get multiple predictions in one request. Meaning: one must send a request consisting of 180 instances, 
+For the record, the window size for the prediction is 180 floats, meaning one must push 180 float values (normalised by dividing it with 35000) in order to get a prediction of one day. One may wish to use the [sliding window technique](https://en.wikipedia.org/wiki/Sliding_window_protocol) in order to get multiple predictions in one request. Meaning: one must send a request consisting of 180 instances.
+
+For the fertiliser, one need 
 
 ## Data technicalities
 The data used for training (and testing) is in "/dataset/time-series/Harga Pangan - compiled.xlsx". One may wish to save the file in order to get accurate predictions. Make sure to fill the missing values, though.
