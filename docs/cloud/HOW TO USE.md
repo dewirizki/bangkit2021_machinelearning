@@ -29,6 +29,7 @@ Here is the value for the wanted output:
 
 ## Detailed explanation
 ### Price Forecast
+- Project ID: Yubisayu
 - Model name: price_forecast
 - Version: price_forecast_180
 
@@ -55,6 +56,7 @@ Here is the value for the wanted output:
 ```
 
 ### Fertiliser
+- Project ID: Yubisayu
 - Model name: fertilizer_recommender
 - Version name: fertilizer_recommender_unified
 
